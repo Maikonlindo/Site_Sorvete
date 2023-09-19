@@ -1,0 +1,80 @@
+/* Alinhar a escolha de sabores para a direita */
+.opcoesFrutas {
+  text-align: right;
+}
+
+/* Estilo para campos inválidos (vermelho) */
+.campos-invalidos {
+  border: 1px solid red;
+}
+/* Aqui esta definido os etilos para o header */
+header {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+/* Texto do (header) */
+h1 {
+  font-size: 24px;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+/* Estilização do (select)*/
+select {
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Estilos para a barra de menu */
+.menu {
+  float: right; /* Alinhar à direita */
+}
+
+/* Estilos para os botões de Login e Cadastre-se */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 20px; /* Espaçamento entre os botões */
+}
+
+.menu a {
+  text-decoration: none;
+  background-color: #0400ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Transição suave da cor de fundo no hover */
+}
+
+.menu a:hover {
+  background-color: #007bff; /* Cor de fundo no hover */
+}
+
+
+.barra-superior {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+

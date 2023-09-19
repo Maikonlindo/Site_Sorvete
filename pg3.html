@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<h1>Está é a segunda página</h1>
+
+
+<body>
+
+
+   <!-- Opções de Nome -->
+   <label>Como você gostaria de ser chamado? </label>
+   <input type="text" placeholder="Digite seu nome"> </input>
+
+   <!-- Opções de Quantidade -->
+
+   <label>Quantidade</label>
+   <input type="number" placeholder=1 min="1" max="100"> </input>
+
+
+<!-- Opções de sabores -->
+
+
+   <label for="categoria">Categoria:</label>
+   <select id="categoria">
+       <option value="selecione">Selecione uma categoria</option>
+       <option value="frutas">Frutas</option>
+       <option value="saboresLeite">Sabores de Leite</option>
+   </select>
+
+   <div id="opcoesFrutas" style="display: none;">
+       <label for="saboresFrutas">Escolha um sabor de fruta:</label>
+       <select id="saboresFrutas">
+           <option value="morango">Morango</option>
+           <option value="banana">Banana</option>
+           <option value="abacaxi">Abacaxi</option>
+       </select>
+   </div>
+
+   <div id="opcoesLeite" style="display: none;">
+       <label for="saboresLeite">Escolha um sabor de leite:</label>
+       <select id="saboresLeite">
+           <option value="baunilha">Baunilha</option>
+           <option value="chocolate">Chocolate</option>
+           <option value="caramelo">Caramelo</option>
+       </select>
+
+<!-- id sabores-->
+
+   </div>
+   <div id="opcoesFrutas" class="sabores-direita" style="display: none;">
+      
+   </div>
+   
+   <div id="opcoesLeite" class="sabores-direita" style="display: none;">
+
+   </div>
+
+<!--Botão-->
+
+<button id="botao">Fazer pedido </button>
+
+ <!--Primeira Lincagem para Javascript-->
+ <script src="scripts/java.js"></script>
+
+ <!--Segunda Lincagem para Javascript-->
+ <script src="scripts/botão.js"></script>
+
+ <!--Segunda Página Lincagem para Javascript-->
+ <script src="segundapagina.js"></script>
+
+</body>
+</html>

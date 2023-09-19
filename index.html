@@ -1,0 +1,46 @@
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+  <body>
+    <!-- Barra de menu com os botões de Login e Cadastre-se -->
+    <nav class="menu">
+      <ul>
+        <li><a href="#" id="login-btn">Login</a></li>
+        <li><a href="#" id="cadastre-btn">Cadastre-se</a></li>
+      </ul>
+    </nav>
+
+    <div class="barra-superior">
+
+        <header>
+            <h1>Sabor Celestial</h1>
+          </header>
+
+    <!--Primeira Lincagem para Javascript-->
+    <script src="scripts/java.js"></script>
+
+    <!--Segunda Lincagem para Javascript-->
+    <script src="scripts/botão.js"></script>
+
+    <!--Segunda Página Lincagem para Javascript-->
+    <script src="segundapagina.js"></script>
+
+    <script>
+      // Evento de clique para o botão de Login
+      document
+        .getElementById("login-btn")
+        .addEventListener("click", function (event) {
+          // Impedir o comportamento padrão do link (não seguir o href "#")
+          event.preventDefault();
+
+          // Redirecionar para a segunda página
+          window.location.href = "pg3.html";
+        });
+    </script>
+
+  </body>
+</html>
